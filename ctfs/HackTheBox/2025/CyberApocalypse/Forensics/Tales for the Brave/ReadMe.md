@@ -129,10 +129,11 @@ Result:
 
 The **RC4Drop decryption code** (in JS):
 
-*To make this work directly inside the browser, you need to edit the HTML and add this:
-"<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+*To make this work directly inside the browser, you need to edit the HTML and add this:*
+```html
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/mode-rc4drop.min.js"></script>"
-*
+```
 
 ```javascript
 var decrypted = CryptoJS.RC4Drop.decrypt(
