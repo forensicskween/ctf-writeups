@@ -99,7 +99,7 @@ print(order)
 #21214334341047589034959795830530169972304000967355896041112297190770972306665257150126981587914335537556050020788061
 ```
 
-Interesting, the order of the curve is the same as $p$, this means it's an anomalous curve; and the discrete log is fairly easy to compute with Smart's attack. conn.recvline()
+Interesting, the order of the curve is the same as $p$, this means it's an anomalous curve; and the discrete log is fairly easy to compute with Smart's attack.
 
 ### 🔑 5️⃣ The full factorization of the order of the elliptic curve defined over the finite field F_{p^3}
 
